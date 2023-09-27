@@ -11,6 +11,8 @@ public class Lesson {
         }
         Person john = new Person("John", 13);
         sarah.child = john;
+
+
         personService.setAgeToEighteen(sarah);
         if (sarah.child != null ) {
             if (sarah.child.getName() != null) {
